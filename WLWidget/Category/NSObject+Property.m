@@ -23,7 +23,7 @@
         }else if ([value isKindOfClass:NSClassFromString(@"__NSCFDictionary")]){
             code = [NSString stringWithFormat:@"@property (strong,nonatomic) NSDictionary *%@;",propertyName];
         }else if ([value isKindOfClass:NSClassFromString(@"__NSCFBoolean")]){
-            code = [NSString stringWithFormat:@"@property (assign,nonatomic) BOOL %@;",propertyName]
+            code = [NSString stringWithFormat:@"@property (assign,nonatomic) BOOL %@;",propertyName];
         }
         [strM appendFormat:@"\n%@\n",code];
     }];
