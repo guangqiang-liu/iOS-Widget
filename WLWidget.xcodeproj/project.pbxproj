@@ -106,7 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				9CEEA63520A17BB200673214 /* Category */,
-				9CEEA63420A17BB200673214 /* Macro */,
+				9CEEA63420A17BB200673214 /* macro */,
 				9CEEA61E20A17B4B00673214 /* AppDelegate.h */,
 				9CEEA61F20A17B4B00673214 /* AppDelegate.m */,
 				9CEEA62120A17B4C00673214 /* ViewController.h */,
@@ -121,7 +121,7 @@
 			path = WLWidget;
 			sourceTree = "<group>";
 		};
-		9CEEA63420A17BB200673214 /* Macro */ = {
+		9CEEA63420A17BB200673214 /* macro */ = {
 			isa = PBXGroup;
 			children = (
 				9CEEA63620A17BB200673214 /* WLConst.h */,
@@ -129,7 +129,7 @@
 				9CEEA63820A17BB200673214 /* ColorConst.h */,
 				9CEEA63920A17BB200673214 /* LogConst.h */,
 			);
-			path = Macro;
+			path = macro;
 			sourceTree = "<group>";
 		};
 		9CEEA63520A17BB200673214 /* Category */ = {
