@@ -38,8 +38,8 @@
 #define bgColor HexRGB(0xFAF9F9)
 #define sepLineColor HexRGB(0xEFEFF5)
 #define themeColor  HexRGB(0x7442ea)
-#define textcolor RGBCOLOR(83,83,83)
-#define textgrayColor HexRGB(0x999999)
-#define textBlackColor HexRGB(0x333333)
+#define textGrayColor HexRGB(0x999999)
+#define textDarkGrayColor HexRGB(0x666666)
+#define textBlackColor HexRGB(0x434343)
 
 #endif /* ColorConst_h */
