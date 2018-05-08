@@ -16,13 +16,13 @@
         NSString *code;
         if ([value isKindOfClass:NSClassFromString(@"__NSCFString")]) {
             code = [NSString stringWithFormat:@"@property (strong, nonatomic) NSString *%@;",propertyName];
-        }else if ([value isKindOfClass:NSClassFromString(@"__NSCFNumber")]){
+        }else if ([value isKindOfClass:NSClassFromString(@"__NSCFNumber")]) {
             code = [NSString stringWithFormat:@"@property (strong,nonatomic) NSCFNumber *%@;",propertyName];
-        }else if ([value isKindOfClass:NSClassFromString(@"__NSCFArray")]){
+        }else if ([value isKindOfClass:NSClassFromString(@"__NSCFArray")]) {
             code = [NSString stringWithFormat:@"@property (strong, nonatomic) NSArray *%@;",propertyName];
-        }else if ([value isKindOfClass:NSClassFromString(@"__NSCFDictionary")]){
+        }else if ([value isKindOfClass:NSClassFromString(@"__NSCFDictionary")]) {
             code = [NSString stringWithFormat:@"@property (strong,nonatomic) NSDictionary *%@;",propertyName];
-        }else if ([value isKindOfClass:NSClassFromString(@"__NSCFBoolean")]){
+        }else if ([value isKindOfClass:NSClassFromString(@"__NSCFBoolean")]) {
             code = [NSString stringWithFormat:@"@property (assign,nonatomic) BOOL %@;",propertyName];
         }
         [strM appendFormat:@"\n%@\n",code];
