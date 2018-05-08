@@ -30,6 +30,6 @@ Pod::Spec.new do |s|
         ss.source_files = "WLWidget/Category/**/*.{h,m}"
     end
   s.subspec 'Macro' do |ss|
-      ss.source_files = "WLWidget/Marco/**/*.{h,m}"
+      ss.source_files = "WLWidget/Macro/**/*.{h,m}"
   end
 end
