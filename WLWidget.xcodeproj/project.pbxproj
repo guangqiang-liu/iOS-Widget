@@ -28,6 +28,8 @@
 		134B3912FE8B9E877EC15319 /* Pods-WLWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLWidget.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLWidget/Pods-WLWidget.release.xcconfig"; sourceTree = "<group>"; };
 		9CC4FE9120A1F0B100232074 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
 		9CC4FE9220A1F0B100232074 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		9CC4FEE620A29BBE00232074 /* CategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryHeader.h; sourceTree = "<group>"; };
+		9CC4FEE720A29C0400232074 /* MacroHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacroHeader.h; sourceTree = "<group>"; };
 		9CEEA61B20A17B4B00673214 /* WLWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WLWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CEEA61E20A17B4B00673214 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9CEEA61F20A17B4B00673214 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -109,7 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				9CEEA63520A17BB200673214 /* Category */,
-				9CEEA63420A17BB200673214 /* macro */,
+				9CEEA63420A17BB200673214 /* Macro */,
 				9CEEA61E20A17B4B00673214 /* AppDelegate.h */,
 				9CEEA61F20A17B4B00673214 /* AppDelegate.m */,
 				9CEEA62120A17B4C00673214 /* ViewController.h */,
@@ -124,15 +126,16 @@
 			path = WLWidget;
 			sourceTree = "<group>";
 		};
-		9CEEA63420A17BB200673214 /* macro */ = {
+		9CEEA63420A17BB200673214 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
 				9CEEA63620A17BB200673214 /* WLConst.h */,
 				9CEEA63720A17BB200673214 /* FontConst.h */,
 				9CEEA63820A17BB200673214 /* ColorConst.h */,
 				9CEEA63920A17BB200673214 /* LogConst.h */,
+				9CC4FEE720A29C0400232074 /* MacroHeader.h */,
 			);
-			path = macro;
+			path = Macro;
 			sourceTree = "<group>";
 		};
 		9CEEA63520A17BB200673214 /* Category */ = {
@@ -152,6 +155,7 @@
 				9CEEA63F20A17BC400673214 /* UIView+WLGestureBlock.m */,
 				9CEEA63C20A17BC400673214 /* UIView+WLSize.h */,
 				9CEEA63B20A17BC300673214 /* UIView+WLSize.m */,
+				9CC4FEE620A29BBE00232074 /* CategoryHeader.h */,
 			);
 			path = Category;
 			sourceTree = "<group>";
