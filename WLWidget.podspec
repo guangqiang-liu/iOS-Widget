@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WLWidget'
-  s.version          = '0.0.5'
+  s.version          = '0.0.6'
   s.summary          = '工具小组件集合类，目前包含分类和宏'
 
 # This description is used to generate tags and improve search results.
@@ -32,4 +32,6 @@ Pod::Spec.new do |s|
   s.subspec 'Macro' do |ss|
       ss.source_files = "WLWidget/Macro/**/*.{h,m}"
   end
+  
+  s.dependency 'SDWebImage'
 end

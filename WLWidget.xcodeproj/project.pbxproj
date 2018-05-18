@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C140AB420AC2784006E6747 /* UIView+WLRoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C140AB320AC2784006E6747 /* UIView+WLRoundedCorners.m */; };
+		9C140AB720AC295F006E6747 /* UIImageView+WLSDImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C140AB620AC295F006E6747 /* UIImageView+WLSDImage.m */; };
+		9C140ABA20AC2977006E6747 /* UIButton+WLSDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C140AB920AC2977006E6747 /* UIButton+WLSDButton.m */; };
+		9C855EEE20A9C1F00074C6CF /* UILabel+WLLineSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C855EED20A9C1F00074C6CF /* UILabel+WLLineSpace.m */; };
 		9CC4FE9320A1F0B100232074 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FE9220A1F0B100232074 /* NSObject+Property.m */; };
 		9CEEA62020A17B4B00673214 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEEA61F20A17B4B00673214 /* AppDelegate.m */; };
 		9CEEA62320A17B4C00673214 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEEA62220A17B4C00673214 /* ViewController.m */; };
@@ -20,12 +24,20 @@
 		9CEEA64720A17BC400673214 /* UIButton+WLContentExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEEA64120A17BC400673214 /* UIButton+WLContentExtention.m */; };
 		9CEEA64820A17BC400673214 /* UIButton+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEEA64320A17BC400673214 /* UIButton+Gradient.m */; };
 		9CEEA64E20A17C2800673214 /* UIView+Borders.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEEA64A20A17C2700673214 /* UIView+Borders.m */; };
-		F283A16AD33A9640E66DEC94 /* libPods-WLWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0107023EC9B748FBDB1F7CD4 /* libPods-WLWidget.a */; };
+		A171B1A65B5272300E17D523 /* Pods_WLWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300FD14CD77A1AAB5A9AFCEE /* Pods_WLWidget.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0107023EC9B748FBDB1F7CD4 /* libPods-WLWidget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WLWidget.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		134B3912FE8B9E877EC15319 /* Pods-WLWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WLWidget.release.xcconfig"; path = "Pods/Target Support Files/Pods-WLWidget/Pods-WLWidget.release.xcconfig"; sourceTree = "<group>"; };
+		300FD14CD77A1AAB5A9AFCEE /* Pods_WLWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WLWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C140AB220AC2784006E6747 /* UIView+WLRoundedCorners.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WLRoundedCorners.h"; sourceTree = "<group>"; };
+		9C140AB320AC2784006E6747 /* UIView+WLRoundedCorners.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WLRoundedCorners.m"; sourceTree = "<group>"; };
+		9C140AB520AC295F006E6747 /* UIImageView+WLSDImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WLSDImage.h"; sourceTree = "<group>"; };
+		9C140AB620AC295F006E6747 /* UIImageView+WLSDImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WLSDImage.m"; sourceTree = "<group>"; };
+		9C140AB820AC2977006E6747 /* UIButton+WLSDButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+WLSDButton.h"; sourceTree = "<group>"; };
+		9C140AB920AC2977006E6747 /* UIButton+WLSDButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WLSDButton.m"; sourceTree = "<group>"; };
+		9C855EEC20A9C1F00074C6CF /* UILabel+WLLineSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+WLLineSpace.h"; sourceTree = "<group>"; };
+		9C855EED20A9C1F00074C6CF /* UILabel+WLLineSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WLLineSpace.m"; sourceTree = "<group>"; };
 		9CC4FE9120A1F0B100232074 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
 		9CC4FE9220A1F0B100232074 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
 		9CC4FEE620A29BBE00232074 /* CategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryHeader.h; sourceTree = "<group>"; };
@@ -65,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F283A16AD33A9640E66DEC94 /* libPods-WLWidget.a in Frameworks */,
+				A171B1A65B5272300E17D523 /* Pods_WLWidget.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +87,7 @@
 		07FC4CA4F69AF3B62A2435BC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0107023EC9B748FBDB1F7CD4 /* libPods-WLWidget.a */,
+				300FD14CD77A1AAB5A9AFCEE /* Pods_WLWidget.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,6 +167,14 @@
 				9CEEA63F20A17BC400673214 /* UIView+WLGestureBlock.m */,
 				9CEEA63C20A17BC400673214 /* UIView+WLSize.h */,
 				9CEEA63B20A17BC300673214 /* UIView+WLSize.m */,
+				9C855EEC20A9C1F00074C6CF /* UILabel+WLLineSpace.h */,
+				9C855EED20A9C1F00074C6CF /* UILabel+WLLineSpace.m */,
+				9C140AB520AC295F006E6747 /* UIImageView+WLSDImage.h */,
+				9C140AB620AC295F006E6747 /* UIImageView+WLSDImage.m */,
+				9C140AB820AC2977006E6747 /* UIButton+WLSDButton.h */,
+				9C140AB920AC2977006E6747 /* UIButton+WLSDButton.m */,
+				9C140AB220AC2784006E6747 /* UIView+WLRoundedCorners.h */,
+				9C140AB320AC2784006E6747 /* UIView+WLRoundedCorners.m */,
 				9CC4FEE620A29BBE00232074 /* CategoryHeader.h */,
 			);
 			path = Category;
@@ -251,9 +271,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WLWidget/Pods-WLWidget-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -289,12 +312,16 @@
 				9CEEA64820A17BC400673214 /* UIButton+Gradient.m in Sources */,
 				9CEEA64420A17BC400673214 /* UIView+WLSize.m in Sources */,
 				9CEEA64620A17BC400673214 /* UIView+WLGestureBlock.m in Sources */,
+				9C140AB720AC295F006E6747 /* UIImageView+WLSDImage.m in Sources */,
 				9CEEA64E20A17C2800673214 /* UIView+Borders.m in Sources */,
 				9CEEA62320A17B4C00673214 /* ViewController.m in Sources */,
 				9CEEA62E20A17B4C00673214 /* main.m in Sources */,
 				9CEEA64520A17BC400673214 /* UIImage+Gradient.m in Sources */,
+				9C140ABA20AC2977006E6747 /* UIButton+WLSDButton.m in Sources */,
+				9C140AB420AC2784006E6747 /* UIView+WLRoundedCorners.m in Sources */,
 				9CC4FE9320A1F0B100232074 /* NSObject+Property.m in Sources */,
 				9CEEA62020A17B4B00673214 /* AppDelegate.m in Sources */,
+				9C855EEE20A9C1F00074C6CF /* UILabel+WLLineSpace.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
