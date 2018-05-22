@@ -10,9 +10,6 @@
 
 @interface UIView (WLRoundedCorners)
 
-- (void)drawRoundedCornersWithCorners:(UIRectCorner)corners
-                cornerRadii:(CGSize)radii;
-
 - (void)drawCornersWithCorners:(UIRectCorner)corners
                 cornerRadii:(CGSize)radii
                  viewRect:(CGRect)rect;
