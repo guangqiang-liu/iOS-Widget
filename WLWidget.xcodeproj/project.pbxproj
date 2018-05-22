@@ -499,7 +499,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WLWidget/WLWidget.pch";
 				INFOPLIST_FILE = WLWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = quangqiang.WLWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,7 +515,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/WLWidget/WLWidget.pch";
 				INFOPLIST_FILE = WLWidget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = quangqiang.WLWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";

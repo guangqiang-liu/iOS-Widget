@@ -15,5 +15,6 @@
 #import "UIImageView+WebCache.h"
 #import "UIButton+WebCache.h"
 #import "MacroHeader.h"
+#import "CategoryHeader.h"
 
 #endif /* WLWidget_pch */
