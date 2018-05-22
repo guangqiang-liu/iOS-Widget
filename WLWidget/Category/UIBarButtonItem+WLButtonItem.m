@@ -7,7 +7,6 @@
 //
 
 #import "UIBarButtonItem+WLButtonItem.h"
-#import "MacroHeader.h"
 @implementation UIBarButtonItem (WLButtonItem)
 
 + (UIBarButtonItem *)createItemWithTarget:(id)target action:(SEL)action title:(NSString *)title {
@@ -26,8 +25,8 @@
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     [button setTitle:title forState:UIControlStateNormal];
-    [button setTitleColor:color ?: [UIColor blackColor] forState:UIControlStateNormal];
-    button.titleLabel.font = font ?: H14;
+    [button setTitleColor:color ? color : [UIColor blackColor] forState:UIControlStateNormal];
+    button.titleLabel.font = font ? font : [UIFont systemFontOfSize:14];
     [button sizeToFit];
     if (button.bounds.size.width < 40) {
         CGFloat width = 40 / button.bounds.size.height * button.bounds.size.width;
