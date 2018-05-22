@@ -13,6 +13,10 @@
 #define SYS_FONT(x) [UIFont systemFontOfSize:x]
 #define BS_FONT(x) [UIFont boldSystemFontOfSize:x]
 
+#define FONT_PingFang_Light(x) (SYSTEM_VERSION >= 9 ? [UIFont fontWithName:@"PingFangSC-Light" size:x] : SYS_FONT(x))
+#define FONT_PingFang_Regular(x) (SYSTEM_VERSION >= 9 ? [UIFont fontWithName:@"PingFangSC-Regular" size:x] : SYS_FONT(x))
+#define FONT_PingFang_Bold(x) (SYSTEM_VERSION >= 9 ? [UIFont fontWithName:@"PingFangSC-Medium" size:x] : BS_FONT(x))
+
 /// 正常字体
 #define H36 [UIFont systemFontOfSize:36]
 #define H35 [UIFont systemFontOfSize:35]
