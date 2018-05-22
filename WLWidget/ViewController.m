@@ -21,4 +21,7 @@
     self.navigationItem.rightBarButtonItem = [UIBarButtonItem createItemWithTarget:self action:@selector(xx) title:@"xxx"];
 }
 
+- (void)xx {
+    
+}
 @end
