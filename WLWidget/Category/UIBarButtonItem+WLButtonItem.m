@@ -28,10 +28,7 @@
     [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
 //    button.titleLabel.font = [UIFont systemFontOfSize:14];
 //    [button sizeToFit];
-    if (button.bounds.size.width < 40) {
-        CGFloat width = 40 / button.bounds.size.height * button.bounds.size.width;
-        button.bounds = CGRectMake(0, 0, width, 40);
-    }
+    button.frame = CGRectMake(0, 0, 40, 40);
     button.titleEdgeInsets = titleEdgeInsets;
     button.backgroundColor = [UIColor magentaColor];
     return [[UIBarButtonItem alloc] initWithCustomView:button];
