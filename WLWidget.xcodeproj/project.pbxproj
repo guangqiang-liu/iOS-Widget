@@ -13,7 +13,6 @@
 		9C1C0ED120B29A7A00FD6857 /* UIView+WLDashLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C0ED020B29A7A00FD6857 /* UIView+WLDashLine.m */; };
 		9C1C0ED720B29DAF00FD6857 /* UIView+WLCurrentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C0ED620B29DAF00FD6857 /* UIView+WLCurrentVC.m */; };
 		9C1C0EDA20B29E2600FD6857 /* NSObject+WLCurrentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C0ED920B29E2600FD6857 /* NSObject+WLCurrentVC.m */; };
-		9C1C0F0320B3051F00FD6857 /* UIBarButtonItem+WLButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C0F0220B3051F00FD6857 /* UIBarButtonItem+WLButtonItem.m */; };
 		9C1C0F0620B322C800FD6857 /* UINavigationItem+WLFixedSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C0F0520B322C800FD6857 /* UINavigationItem+WLFixedSpace.m */; };
 		9C1C0F0920B3239C00FD6857 /* NSObject+WLRunTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C0F0820B3239C00FD6857 /* NSObject+WLRunTime.m */; };
 		9C855EEE20A9C1F00074C6CF /* UILabel+WLLineSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C855EED20A9C1F00074C6CF /* UILabel+WLLineSpace.m */; };
@@ -48,8 +47,6 @@
 		9C1C0ED620B29DAF00FD6857 /* UIView+WLCurrentVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WLCurrentVC.m"; sourceTree = "<group>"; };
 		9C1C0ED820B29E2600FD6857 /* NSObject+WLCurrentVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+WLCurrentVC.h"; sourceTree = "<group>"; };
 		9C1C0ED920B29E2600FD6857 /* NSObject+WLCurrentVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WLCurrentVC.m"; sourceTree = "<group>"; };
-		9C1C0F0120B3051F00FD6857 /* UIBarButtonItem+WLButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WLButtonItem.h"; sourceTree = "<group>"; };
-		9C1C0F0220B3051F00FD6857 /* UIBarButtonItem+WLButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+WLButtonItem.m"; sourceTree = "<group>"; };
 		9C1C0F0420B322C800FD6857 /* UINavigationItem+WLFixedSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+WLFixedSpace.h"; sourceTree = "<group>"; };
 		9C1C0F0520B322C800FD6857 /* UINavigationItem+WLFixedSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+WLFixedSpace.m"; sourceTree = "<group>"; };
 		9C1C0F0720B3239C00FD6857 /* NSObject+WLRunTime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+WLRunTime.h"; sourceTree = "<group>"; };
@@ -203,8 +200,6 @@
 				9C1C0ED620B29DAF00FD6857 /* UIView+WLCurrentVC.m */,
 				9C1C0ED820B29E2600FD6857 /* NSObject+WLCurrentVC.h */,
 				9C1C0ED920B29E2600FD6857 /* NSObject+WLCurrentVC.m */,
-				9C1C0F0120B3051F00FD6857 /* UIBarButtonItem+WLButtonItem.h */,
-				9C1C0F0220B3051F00FD6857 /* UIBarButtonItem+WLButtonItem.m */,
 				9C1C0F0420B322C800FD6857 /* UINavigationItem+WLFixedSpace.h */,
 				9C1C0F0520B322C800FD6857 /* UINavigationItem+WLFixedSpace.m */,
 				9C1C0F0720B3239C00FD6857 /* NSObject+WLRunTime.h */,
@@ -351,7 +346,6 @@
 				9C140AB720AC295F006E6747 /* UIImageView+WLSDImage.m in Sources */,
 				9C1C0EDA20B29E2600FD6857 /* NSObject+WLCurrentVC.m in Sources */,
 				9CEEA64E20A17C2800673214 /* UIView+Borders.m in Sources */,
-				9C1C0F0320B3051F00FD6857 /* UIBarButtonItem+WLButtonItem.m in Sources */,
 				9CEEA62320A17B4C00673214 /* ViewController.m in Sources */,
 				9CEEA62E20A17B4C00673214 /* main.m in Sources */,
 				9CEEA64520A17BC400673214 /* UIImage+Gradient.m in Sources */,
