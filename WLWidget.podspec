@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc     = true
 
-  s.prefix_header_file = "WLWidget/WLWidget.pch"
+  # s.prefix_header_file = "WLWidget/WLWidget.pch"
 
   s.subspec 'Category' do |ss|
         ss.source_files = "WLWidget/Category/**/*.{h,m}"
