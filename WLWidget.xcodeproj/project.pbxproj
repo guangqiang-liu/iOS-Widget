@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		9C140AB420AC2784006E6747 /* UIView+WLRoundedCorners.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C140AB320AC2784006E6747 /* UIView+WLRoundedCorners.m */; };
 		9C140AB720AC295F006E6747 /* UIImageView+WLSDImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C140AB620AC295F006E6747 /* UIImageView+WLSDImage.m */; };
-		9C140ABA20AC2977006E6747 /* UIButton+WLSDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C140AB920AC2977006E6747 /* UIButton+WLSDButton.m */; };
 		9C1C0ED120B29A7A00FD6857 /* UIView+WLDashLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C0ED020B29A7A00FD6857 /* UIView+WLDashLine.m */; };
 		9C1C0ED720B29DAF00FD6857 /* UIView+WLCurrentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C0ED620B29DAF00FD6857 /* UIView+WLCurrentVC.m */; };
 		9C1C0EDA20B29E2600FD6857 /* NSObject+WLCurrentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C0ED920B29E2600FD6857 /* NSObject+WLCurrentVC.m */; };
@@ -40,8 +39,6 @@
 		9C140AB320AC2784006E6747 /* UIView+WLRoundedCorners.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+WLRoundedCorners.m"; sourceTree = "<group>"; };
 		9C140AB520AC295F006E6747 /* UIImageView+WLSDImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WLSDImage.h"; sourceTree = "<group>"; };
 		9C140AB620AC295F006E6747 /* UIImageView+WLSDImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WLSDImage.m"; sourceTree = "<group>"; };
-		9C140AB820AC2977006E6747 /* UIButton+WLSDButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+WLSDButton.h"; sourceTree = "<group>"; };
-		9C140AB920AC2977006E6747 /* UIButton+WLSDButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WLSDButton.m"; sourceTree = "<group>"; };
 		9C1C0ECF20B29A7A00FD6857 /* UIView+WLDashLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WLDashLine.h"; sourceTree = "<group>"; };
 		9C1C0ED020B29A7A00FD6857 /* UIView+WLDashLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WLDashLine.m"; sourceTree = "<group>"; };
 		9C1C0ED520B29DAF00FD6857 /* UIView+WLCurrentVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+WLCurrentVC.h"; sourceTree = "<group>"; };
@@ -195,8 +192,6 @@
 				9C855EED20A9C1F00074C6CF /* UILabel+WLLineSpace.m */,
 				9C140AB520AC295F006E6747 /* UIImageView+WLSDImage.h */,
 				9C140AB620AC295F006E6747 /* UIImageView+WLSDImage.m */,
-				9C140AB820AC2977006E6747 /* UIButton+WLSDButton.h */,
-				9C140AB920AC2977006E6747 /* UIButton+WLSDButton.m */,
 				9C140AB220AC2784006E6747 /* UIView+WLRoundedCorners.h */,
 				9C140AB320AC2784006E6747 /* UIView+WLRoundedCorners.m */,
 				9C1C0ED520B29DAF00FD6857 /* UIView+WLCurrentVC.h */,
@@ -355,7 +350,6 @@
 				9CEEA62E20A17B4C00673214 /* main.m in Sources */,
 				9CEEA64520A17BC400673214 /* UIImage+Gradient.m in Sources */,
 				9C1C0F0920B3239C00FD6857 /* NSObject+WLRunTime.m in Sources */,
-				9C140ABA20AC2977006E6747 /* UIButton+WLSDButton.m in Sources */,
 				9C140AB420AC2784006E6747 /* UIView+WLRoundedCorners.m in Sources */,
 				9CC4FE9320A1F0B100232074 /* NSObject+Property.m in Sources */,
 				9C1C0F0E20B3EECD00FD6857 /* UIBarButtonItem+WLButtonItem.m in Sources */,
