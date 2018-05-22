@@ -26,8 +26,8 @@
     [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     [button setTitle:title forState:UIControlStateNormal];
     [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    button.titleLabel.font = [UIFont systemFontOfSize:14];
-    [button sizeToFit];
+//    button.titleLabel.font = [UIFont systemFontOfSize:14];
+//    [button sizeToFit];
     if (button.bounds.size.width < 40) {
         CGFloat width = 40 / button.bounds.size.height * button.bounds.size.width;
         button.bounds = CGRectMake(0, 0, width, 40);
