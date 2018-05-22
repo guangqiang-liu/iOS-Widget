@@ -7,6 +7,7 @@
 //
 
 #import "UIButton+WLSDButton.h"
+#import "UIButton+WebCache.h"
 
 @implementation UIButton (WLSDButton)
 
