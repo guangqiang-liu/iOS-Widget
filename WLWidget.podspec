@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WLWidget'
-  s.version          = '0.0.11'
+  s.version          = '0.0.12'
   s.summary          = '工具小组件集合类，目前包含分类和宏'
 
 # This description is used to generate tags and improve search results.
