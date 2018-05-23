@@ -10,8 +10,8 @@
 
 @implementation UIImageView (WLSDImage)
 
-- (void)setImageViewWithUrl:(NSString *)url placeholderImage:(UIImage *)placeholderImage {
-    [self sd_setImageWithURL:[NSURL URLWithString:url] placeholderImage:placeholderImage];
-}
+//- (void)setImageViewWithUrl:(NSString *)url placeholderImage:(UIImage *)placeholderImage {
+//    [self sd_setImageWithURL:[NSURL URLWithString:url] placeholderImage:placeholderImage];
+//}
 
 @end
