@@ -18,10 +18,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.view.backgroundColor = [UIColor redColor];
-    self.navigationItem.rightBarButtonItem = [UIBarButtonItem createItemWithTarget:self action:@selector(xx) title:@"xxx"];
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem createItemWithTarget:self action:@selector(xx) title:@"按钮"];
 }
 
 - (void)xx {
-    
 }
 @end
