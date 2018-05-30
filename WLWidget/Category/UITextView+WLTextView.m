@@ -8,7 +8,8 @@
 
 #import "UITextView+WLTextView.h"
 #import <objc/runtime.h>
-#import "MacroHeader.h"
+
+#define HexRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 static NSString *const wl_placeHolderKey = @"wl_placeHolderKey";
 
@@ -95,7 +96,7 @@ static NSString *const wl_placeHolderKey = @"wl_placeHolderKey";
     if (!placeHolderLab) {
         placeHolderLab = [[UILabel alloc] init];
         placeHolderLab.numberOfLines = 0;
-        placeHolderLab.textColor = placeHolderColor;
+        placeHolderLab.textColor = HexRGB(0xcfcfcf);
         objc_setAssociatedObject(self, @selector(wl_placeHolderLabel), placeHolderLab, OBJC_ASSOCIATION_RETAIN);
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updatePlaceHolder) name:UITextViewTextDidChangeNotification object:self];
     }
