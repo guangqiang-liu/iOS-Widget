@@ -7,8 +7,6 @@
 //
 
 #import "WLTextView.h"
-#import "MacroHeader.h"
-#import "CategoryHeader.h"
 
 @interface WLTextView()
 
