@@ -16,7 +16,6 @@
 		9C1C0F0920B3239C00FD6857 /* NSObject+WLRunTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C0F0820B3239C00FD6857 /* NSObject+WLRunTime.m */; };
 		9C1C0F0E20B3EECD00FD6857 /* UIBarButtonItem+WLButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C0F0D20B3EECD00FD6857 /* UIBarButtonItem+WLButtonItem.m */; };
 		9C239E8120BE827600F2C3AD /* UITextView+WLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C239E8020BE827600F2C3AD /* UITextView+WLTextView.m */; };
-		9C239E8820BE8A4300F2C3AD /* WLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C239E8720BE8A4300F2C3AD /* WLTextView.m */; };
 		9C5022C320B3FDE40024BF01 /* UIButton+WLSDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5022C220B3FDE40024BF01 /* UIButton+WLSDButton.m */; };
 		9C7EFDE120BE4F0D005C770F /* WLSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7EFDE020BE4F0D005C770F /* WLSearchBar.m */; };
 		9C7EFDE420BE4F81005C770F /* WLRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7EFDE320BE4F81005C770F /* WLRate.m */; };
@@ -65,8 +64,6 @@
 		9C1C0F0D20B3EECD00FD6857 /* UIBarButtonItem+WLButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+WLButtonItem.m"; sourceTree = "<group>"; };
 		9C239E7F20BE827600F2C3AD /* UITextView+WLTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+WLTextView.h"; sourceTree = "<group>"; };
 		9C239E8020BE827600F2C3AD /* UITextView+WLTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+WLTextView.m"; sourceTree = "<group>"; };
-		9C239E8620BE8A4300F2C3AD /* WLTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLTextView.h; sourceTree = "<group>"; };
-		9C239E8720BE8A4300F2C3AD /* WLTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLTextView.m; sourceTree = "<group>"; };
 		9C5022C120B3FDE40024BF01 /* UIButton+WLSDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WLSDButton.h"; sourceTree = "<group>"; };
 		9C5022C220B3FDE40024BF01 /* UIButton+WLSDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WLSDButton.m"; sourceTree = "<group>"; };
 		9C7EFDDF20BE4F0D005C770F /* WLSearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLSearchBar.h; sourceTree = "<group>"; };
@@ -154,8 +151,6 @@
 			children = (
 				9C7EFDDF20BE4F0D005C770F /* WLSearchBar.h */,
 				9C7EFDE020BE4F0D005C770F /* WLSearchBar.m */,
-				9C239E8620BE8A4300F2C3AD /* WLTextView.h */,
-				9C239E8720BE8A4300F2C3AD /* WLTextView.m */,
 				9C7EFDE220BE4F81005C770F /* WLRate.h */,
 				9C7EFDE320BE4F81005C770F /* WLRate.m */,
 				9C7EFDE520BE4FA1005C770F /* WLBadge.h */,
@@ -422,7 +417,6 @@
 				9C7EFDE720BE4FA1005C770F /* WLBadge.m in Sources */,
 				9C1C0F0E20B3EECD00FD6857 /* UIBarButtonItem+WLButtonItem.m in Sources */,
 				9CEEA62020A17B4B00673214 /* AppDelegate.m in Sources */,
-				9C239E8820BE8A4300F2C3AD /* WLTextView.m in Sources */,
 				9C855EEE20A9C1F00074C6CF /* UILabel+WLLineSpace.m in Sources */,
 				9C7EFDE420BE4F81005C770F /* WLRate.m in Sources */,
 				9C1C0ED720B29DAF00FD6857 /* UIView+WLCurrentVC.m in Sources */,

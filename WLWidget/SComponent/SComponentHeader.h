@@ -9,6 +9,4 @@
 #ifndef SComponentHeader_h
 #define SComponentHeader_h
 
-#import "WLTextView.h"
-
 #endif /* SComponentHeader_h */
