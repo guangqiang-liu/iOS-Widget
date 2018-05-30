@@ -15,7 +15,16 @@
 		9C1C0F0620B322C800FD6857 /* UINavigationItem+WLFixedSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C0F0520B322C800FD6857 /* UINavigationItem+WLFixedSpace.m */; };
 		9C1C0F0920B3239C00FD6857 /* NSObject+WLRunTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C0F0820B3239C00FD6857 /* NSObject+WLRunTime.m */; };
 		9C1C0F0E20B3EECD00FD6857 /* UIBarButtonItem+WLButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1C0F0D20B3EECD00FD6857 /* UIBarButtonItem+WLButtonItem.m */; };
+		9C239E8120BE827600F2C3AD /* UITextView+WLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C239E8020BE827600F2C3AD /* UITextView+WLTextView.m */; };
+		9C239E8820BE8A4300F2C3AD /* WLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C239E8720BE8A4300F2C3AD /* WLTextView.m */; };
 		9C5022C320B3FDE40024BF01 /* UIButton+WLSDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5022C220B3FDE40024BF01 /* UIButton+WLSDButton.m */; };
+		9C7EFDE120BE4F0D005C770F /* WLSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7EFDE020BE4F0D005C770F /* WLSearchBar.m */; };
+		9C7EFDE420BE4F81005C770F /* WLRate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7EFDE320BE4F81005C770F /* WLRate.m */; };
+		9C7EFDE720BE4FA1005C770F /* WLBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7EFDE620BE4FA1005C770F /* WLBadge.m */; };
+		9C7EFDEA20BE507D005C770F /* WLProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7EFDE920BE507D005C770F /* WLProgress.m */; };
+		9C7EFDED20BE50E4005C770F /* WLSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7EFDEC20BE50E4005C770F /* WLSlider.m */; };
+		9C7EFDF320BE5130005C770F /* WLSelect.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7EFDF220BE5130005C770F /* WLSelect.m */; };
+		9C7EFDF620BE51F1005C770F /* WLPdfReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C7EFDF520BE51F1005C770F /* WLPdfReader.m */; };
 		9C855EEE20A9C1F00074C6CF /* UILabel+WLLineSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C855EED20A9C1F00074C6CF /* UILabel+WLLineSpace.m */; };
 		9CC4FE9320A1F0B100232074 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC4FE9220A1F0B100232074 /* NSObject+Property.m */; };
 		9CEEA62020A17B4B00673214 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEEA61F20A17B4B00673214 /* AppDelegate.m */; };
@@ -54,8 +63,27 @@
 		9C1C0F0B20B3BBD500FD6857 /* RectConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RectConst.h; sourceTree = "<group>"; };
 		9C1C0F0C20B3EECD00FD6857 /* UIBarButtonItem+WLButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WLButtonItem.h"; sourceTree = "<group>"; };
 		9C1C0F0D20B3EECD00FD6857 /* UIBarButtonItem+WLButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+WLButtonItem.m"; sourceTree = "<group>"; };
+		9C239E7F20BE827600F2C3AD /* UITextView+WLTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+WLTextView.h"; sourceTree = "<group>"; };
+		9C239E8020BE827600F2C3AD /* UITextView+WLTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+WLTextView.m"; sourceTree = "<group>"; };
+		9C239E8620BE8A4300F2C3AD /* WLTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLTextView.h; sourceTree = "<group>"; };
+		9C239E8720BE8A4300F2C3AD /* WLTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLTextView.m; sourceTree = "<group>"; };
 		9C5022C120B3FDE40024BF01 /* UIButton+WLSDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WLSDButton.h"; sourceTree = "<group>"; };
 		9C5022C220B3FDE40024BF01 /* UIButton+WLSDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WLSDButton.m"; sourceTree = "<group>"; };
+		9C7EFDDF20BE4F0D005C770F /* WLSearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLSearchBar.h; sourceTree = "<group>"; };
+		9C7EFDE020BE4F0D005C770F /* WLSearchBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLSearchBar.m; sourceTree = "<group>"; };
+		9C7EFDE220BE4F81005C770F /* WLRate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLRate.h; sourceTree = "<group>"; };
+		9C7EFDE320BE4F81005C770F /* WLRate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLRate.m; sourceTree = "<group>"; };
+		9C7EFDE520BE4FA1005C770F /* WLBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLBadge.h; sourceTree = "<group>"; };
+		9C7EFDE620BE4FA1005C770F /* WLBadge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLBadge.m; sourceTree = "<group>"; };
+		9C7EFDE820BE507D005C770F /* WLProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLProgress.h; sourceTree = "<group>"; };
+		9C7EFDE920BE507D005C770F /* WLProgress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLProgress.m; sourceTree = "<group>"; };
+		9C7EFDEB20BE50E4005C770F /* WLSlider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLSlider.h; sourceTree = "<group>"; };
+		9C7EFDEC20BE50E4005C770F /* WLSlider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLSlider.m; sourceTree = "<group>"; };
+		9C7EFDF120BE5130005C770F /* WLSelect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLSelect.h; sourceTree = "<group>"; };
+		9C7EFDF220BE5130005C770F /* WLSelect.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLSelect.m; sourceTree = "<group>"; };
+		9C7EFDF420BE51F1005C770F /* WLPdfReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLPdfReader.h; sourceTree = "<group>"; };
+		9C7EFDF520BE51F1005C770F /* WLPdfReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLPdfReader.m; sourceTree = "<group>"; };
+		9C7EFDF720BE7218005C770F /* SComponentHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SComponentHeader.h; sourceTree = "<group>"; };
 		9C855EEC20A9C1F00074C6CF /* UILabel+WLLineSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+WLLineSpace.h"; sourceTree = "<group>"; };
 		9C855EED20A9C1F00074C6CF /* UILabel+WLLineSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WLLineSpace.m"; sourceTree = "<group>"; };
 		9CC4FE9120A1F0B100232074 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
@@ -121,6 +149,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9C7EFDDB20BE4E11005C770F /* SComponent */ = {
+			isa = PBXGroup;
+			children = (
+				9C7EFDDF20BE4F0D005C770F /* WLSearchBar.h */,
+				9C7EFDE020BE4F0D005C770F /* WLSearchBar.m */,
+				9C239E8620BE8A4300F2C3AD /* WLTextView.h */,
+				9C239E8720BE8A4300F2C3AD /* WLTextView.m */,
+				9C7EFDE220BE4F81005C770F /* WLRate.h */,
+				9C7EFDE320BE4F81005C770F /* WLRate.m */,
+				9C7EFDE520BE4FA1005C770F /* WLBadge.h */,
+				9C7EFDE620BE4FA1005C770F /* WLBadge.m */,
+				9C7EFDE820BE507D005C770F /* WLProgress.h */,
+				9C7EFDE920BE507D005C770F /* WLProgress.m */,
+				9C7EFDEB20BE50E4005C770F /* WLSlider.h */,
+				9C7EFDEC20BE50E4005C770F /* WLSlider.m */,
+				9C7EFDF120BE5130005C770F /* WLSelect.h */,
+				9C7EFDF220BE5130005C770F /* WLSelect.m */,
+				9C7EFDF420BE51F1005C770F /* WLPdfReader.h */,
+				9C7EFDF520BE51F1005C770F /* WLPdfReader.m */,
+				9C7EFDF720BE7218005C770F /* SComponentHeader.h */,
+			);
+			path = SComponent;
+			sourceTree = "<group>";
+		};
 		9CEEA61220A17B4B00673214 = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +194,7 @@
 		9CEEA61D20A17B4B00673214 /* WLWidget */ = {
 			isa = PBXGroup;
 			children = (
+				9C7EFDDB20BE4E11005C770F /* SComponent */,
 				9CEEA63520A17BB200673214 /* Category */,
 				9CEEA63420A17BB200673214 /* Macro */,
 				9CEEA61E20A17B4B00673214 /* AppDelegate.h */,
@@ -209,6 +262,8 @@
 				9C1C0F0820B3239C00FD6857 /* NSObject+WLRunTime.m */,
 				9C1C0F0C20B3EECD00FD6857 /* UIBarButtonItem+WLButtonItem.h */,
 				9C1C0F0D20B3EECD00FD6857 /* UIBarButtonItem+WLButtonItem.m */,
+				9C239E7F20BE827600F2C3AD /* UITextView+WLTextView.h */,
+				9C239E8020BE827600F2C3AD /* UITextView+WLTextView.m */,
 				9CC4FEE620A29BBE00232074 /* CategoryHeader.h */,
 			);
 			path = Category;
@@ -342,6 +397,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C239E8120BE827600F2C3AD /* UITextView+WLTextView.m in Sources */,
+				9C7EFDF320BE5130005C770F /* WLSelect.m in Sources */,
 				9CEEA64720A17BC400673214 /* UIButton+WLContentExtention.m in Sources */,
 				9CEEA64820A17BC400673214 /* UIButton+Gradient.m in Sources */,
 				9CEEA64420A17BC400673214 /* UIView+WLSize.m in Sources */,
@@ -354,13 +411,20 @@
 				9CEEA64E20A17C2800673214 /* UIView+Borders.m in Sources */,
 				9CEEA62320A17B4C00673214 /* ViewController.m in Sources */,
 				9CEEA62E20A17B4C00673214 /* main.m in Sources */,
+				9C7EFDEA20BE507D005C770F /* WLProgress.m in Sources */,
 				9CEEA64520A17BC400673214 /* UIImage+Gradient.m in Sources */,
+				9C7EFDF620BE51F1005C770F /* WLPdfReader.m in Sources */,
+				9C7EFDE120BE4F0D005C770F /* WLSearchBar.m in Sources */,
 				9C1C0F0920B3239C00FD6857 /* NSObject+WLRunTime.m in Sources */,
 				9C140AB420AC2784006E6747 /* UIView+WLRoundedCorners.m in Sources */,
 				9CC4FE9320A1F0B100232074 /* NSObject+Property.m in Sources */,
+				9C7EFDED20BE50E4005C770F /* WLSlider.m in Sources */,
+				9C7EFDE720BE4FA1005C770F /* WLBadge.m in Sources */,
 				9C1C0F0E20B3EECD00FD6857 /* UIBarButtonItem+WLButtonItem.m in Sources */,
 				9CEEA62020A17B4B00673214 /* AppDelegate.m in Sources */,
+				9C239E8820BE8A4300F2C3AD /* WLTextView.m in Sources */,
 				9C855EEE20A9C1F00074C6CF /* UILabel+WLLineSpace.m in Sources */,
+				9C7EFDE420BE4F81005C770F /* WLRate.m in Sources */,
 				9C1C0ED720B29DAF00FD6857 /* UIView+WLCurrentVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
