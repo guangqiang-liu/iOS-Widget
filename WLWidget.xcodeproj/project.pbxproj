@@ -64,6 +64,7 @@
 		9C1C0F0D20B3EECD00FD6857 /* UIBarButtonItem+WLButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+WLButtonItem.m"; sourceTree = "<group>"; };
 		9C239E7F20BE827600F2C3AD /* UITextView+WLTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+WLTextView.h"; sourceTree = "<group>"; };
 		9C239E8020BE827600F2C3AD /* UITextView+WLTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+WLTextView.m"; sourceTree = "<group>"; };
+		9C239E9620BFBB5200F2C3AD /* DeviceInfoConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfoConst.h; sourceTree = SOURCE_ROOT; };
 		9C5022C120B3FDE40024BF01 /* UIButton+WLSDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WLSDButton.h"; sourceTree = "<group>"; };
 		9C5022C220B3FDE40024BF01 /* UIButton+WLSDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WLSDButton.m"; sourceTree = "<group>"; };
 		9C7EFDDF20BE4F0D005C770F /* WLSearchBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLSearchBar.h; sourceTree = "<group>"; };
@@ -209,6 +210,7 @@
 		9CEEA63420A17BB200673214 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				9C239E9620BFBB5200F2C3AD /* DeviceInfoConst.h */,
 				9CEEA63620A17BB200673214 /* WLConst.h */,
 				9CEEA63720A17BB200673214 /* FontConst.h */,
 				9CEEA63820A17BB200673214 /* ColorConst.h */,
