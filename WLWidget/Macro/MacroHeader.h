@@ -15,6 +15,5 @@
 #import "LogConst.h"
 #import "FormConst.h"
 #import "RectConst.h"
-#import "DeviceInfoConst.h"
 
 #endif /* MacroHeader_h */
