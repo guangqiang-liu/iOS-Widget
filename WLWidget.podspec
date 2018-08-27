@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WLWidget'
-  s.version          = '0.0.20'
+  s.version          = '0.0.1'
   s.summary          = '工具小组件集合类，目前包含分类和宏'
 
 # This description is used to generate tags and improve search results.
@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
                        TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://gitlab.qianbaocard.org/iOS/tool/WLWidget'
+  s.homepage         = 'https://github.com/guangqiang-liu/GQWidget'
   s.license          = "MIT"
   s.author           = { 'guangqiang' => '1126756952@qq.com' }
-  s.source           = { :git => 'git@gitlab.qianbaocard.org:iOS/tool/WLWidget.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/guangqiang-liu/GQWidget.git', :tag => s.version.to_s }
 
   s.platform         = :ios, "8.0"
 
