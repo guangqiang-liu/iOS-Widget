@@ -15,7 +15,7 @@
 #define HexRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 #define HexRGBAlpha(rgbValue, a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:(a)]
 
-#define RandomColor RGB(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
+#define random_color RGB(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
 
 /// 常用颜色
 #define red_color       [UIColor redColor]
@@ -36,13 +36,38 @@
 #define magenta_color   [UIColor magentaColor]
 
 /// 设计规范
-#define bgColor HexRGB(0xFAF9F9)
-#define sepLineColor HexRGB(0xEEEEEE)
-#define themeColor  HexRGB(0xFF4B4A)
-#define textGrayColor HexRGB(0x999999)
-#define textDarkGrayColor HexRGB(0x666666)
-#define textBlackColor HexRGB(0x434343)
-#define placeHolderColor HexRGB(0xcfcfcf)
 
+// 主体颜色
+#define themeColor  HexRGB(0x1478F0)
+
+// 背景颜色
+#define bgColor HexRGB(0xF1F2F5)
+
+// 卡片浅灰色背景
+#define cardGrayBgColor HexRGB(0xF7F7F7)
+
+// 浅灰盒子背景颜色
+#define lightGrayBgColor HexRGB(0xF6F6F6)
+
+// 分割线颜色
+#define sepLineColor HexRGB(0xEAEAEA)
+
+// 组间分割线
+#define sectionSepLineColor HexRGB(0xF1F2F5)
+
+// 灰色字体
+#define textGrayColor HexRGB(0x999999)
+
+// 深灰色
+#define textDarkGrayColor HexRGB(0x666666)
+
+// 深黑色
+#define textDarkBlackColor HexRGB(0x333333)
+
+// 文本框提示文字颜色
+#define placeHolderColor HexRGB(0x999999)
+
+// 弹出框背景颜色
+#define modalBgColor  HexRGBAlpha(0x000000, 0.3)
 
 #endif /* ColorConst_h */

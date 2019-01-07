@@ -15,4 +15,11 @@
 #define WEAK_SELF __weak typeof(self) weakSelf = self
 #define STRONG_SELF __strong typeof(weakSelf) self = weakSelf
 
+#define kDeviceVersion [[[UIDevice currentDevice] systemVersion] floatValue]
+
+#define GQAlertShow(messageText,buttonName) \
+UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示" message:(messageText) \
+delegate:nil cancelButtonTitle:(buttonName) otherButtonTitles: nil];\
+[alert show];
+
 #endif /* WLConst_h */
