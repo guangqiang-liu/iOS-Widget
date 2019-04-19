@@ -38,7 +38,11 @@
 /// 设计规范
 
 // 主体颜色
-#define themeColor  HexRGB(0x1478F0)
+#define themeColor  HexRGB(0x4765EC)
+
+// 主色辅助色
+
+#define subThemeColor  HexRGB(0xE4E8FC)
 
 // 背景颜色
 #define bgColor HexRGB(0xF1F2F5)
@@ -50,22 +54,22 @@
 #define lightGrayBgColor HexRGB(0xF6F6F6)
 
 // 分割线颜色
-#define sepLineColor HexRGB(0xEAEAEA)
+#define sepLineColor HexRGB(0xF7F7FB)
 
 // 组间分割线
-#define sectionSepLineColor HexRGB(0xF1F2F5)
+#define sectionSepLineColor HexRGB(0xF7F7FB)
 
 // 灰色字体
 #define textGrayColor HexRGB(0x999999)
 
 // 深灰色
-#define textDarkGrayColor HexRGB(0x666666)
+#define textDarkGrayColor HexRGB(0x686868)
 
 // 深黑色
-#define textDarkBlackColor HexRGB(0x333333)
+#define textDarkBlackColor HexRGB(0x222222)
 
 // 文本框提示文字颜色
-#define placeHolderColor HexRGB(0x999999)
+#define placeHolderColor HexRGB(0xF1F2F5)
 
 // 弹出框背景颜色
 #define modalBgColor  HexRGBAlpha(0x000000, 0.3)
