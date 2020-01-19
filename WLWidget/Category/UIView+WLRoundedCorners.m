@@ -26,5 +26,4 @@
     shape.path = maskPath.CGPath;
     self.layer.mask = shape;
 }
-
 @end

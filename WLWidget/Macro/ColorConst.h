@@ -38,14 +38,13 @@
 /// 设计规范
 
 // 主体颜色
-#define themeColor  HexRGB(0x4765EC)
+#define themeColor  HexRGB(0x1478F0)
 
 // 主色辅助色
-
 #define subThemeColor  HexRGB(0xE4E8FC)
 
 // 背景颜色
-#define bgColor HexRGB(0xF1F2F5)
+#define bgColor HexRGB(0xF2F3F5)
 
 // 卡片浅灰色背景
 #define cardGrayBgColor HexRGB(0xF7F7F7)
@@ -54,16 +53,25 @@
 #define lightGrayBgColor HexRGB(0xF6F6F6)
 
 // 分割线颜色
-#define sepLineColor HexRGB(0xF7F7FB)
+#define sepLineColor HexRGB(0xe6e6e6)
 
 // 组间分割线
 #define sectionSepLineColor HexRGB(0xF7F7FB)
 
-// 灰色字体
-#define textGrayColor HexRGB(0x999999)
+// 999灰色
+#define text999GrayColor HexRGB(0x999999)
+
+// 浅灰色字体
+#define textLightGrayColor HexRGB(0x9b9b9b)
 
 // 深灰色
 #define textDarkGrayColor HexRGB(0x686868)
+
+// 666灰色
+#define text666GrayColor HexRGB(0x666666)
+
+// AAA灰色
+#define textAAAGrayColor HexRGB(0xAAAAAA)
 
 // 深黑色
 #define textDarkBlackColor HexRGB(0x222222)
@@ -71,7 +79,10 @@
 // 文本框提示文字颜色
 #define placeHolderColor HexRGB(0xF1F2F5)
 
+// 文本框提示文字颜色
+#define imagePlaceHolderColor HexRGB(0xF6F6F6)
+
 // 弹出框背景颜色
-#define modalBgColor  HexRGBAlpha(0x000000, 0.3)
+#define modalBgColor  HexRGBAlpha(0x000000, 0.2)
 
 #endif /* ColorConst_h */

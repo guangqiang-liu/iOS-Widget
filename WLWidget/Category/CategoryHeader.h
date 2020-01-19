@@ -3,7 +3,7 @@
 //  WLWidget
 //
 //  Created by 刘光强 on 2018/5/9.
-//  Copyright © 2018年 quangqiang. All rights reserved.
+//  Copyright © 2018年 guangqiang. All rights reserved.
 //
 
 #ifndef CategoryHeader_h
@@ -22,12 +22,9 @@
 #import "UIButton+WLSDButton.h"
 #import "UIView+WLDashLine.h"
 #import "UIView+WLCurrentVC.h"
-#import "NSObject+WLCurrentVC.h"
 #import "UIView+WLCurrentVC.h"
-#import "NSObject+WLCurrentVC.h"
 #import "UINavigationItem+WLFixedSpace.h"
 #import "NSObject+WLRunTime.h"
 #import "UIBarButtonItem+WLButtonItem.h"
 #import "UITextView+WLTextView.h"
-
 #endif /* CategoryHeader_h */

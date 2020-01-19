@@ -17,4 +17,5 @@ typedef void (^WLWhenTappedBlock)(void);
 - (void)whenTwoFingerTapped:(WLWhenTappedBlock)block;
 - (void)whenTouchedDown:(WLWhenTappedBlock)block;
 - (void)whenTouchedUp:(WLWhenTappedBlock)block;
+
 @end
